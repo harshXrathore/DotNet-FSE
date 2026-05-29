@@ -1,6 +1,3 @@
-
-       
-
         h1 {
 
             /* HEX color */
@@ -13,7 +10,8 @@
 
             /* RGBA background */
             background-color: rgba(153, 98, 98, 0.8);
-
+            background-image: url("/upskilling/CSS_3/Problem_4/city.jpg");
+            background-size: cover;
             padding: 20px;
             margin: 20px;
         }
@@ -31,10 +29,9 @@
          body {
 
             /* Fallback color */
-            background-color: #622525;
-
-            /* Background image */
-            background-image: url("/upskilling/CSS_3/Problem_4/city.jpg");
-
+            background-color: #c38080;
             background-size: cover;
+        }
+        p{
+            color: white;
         }
